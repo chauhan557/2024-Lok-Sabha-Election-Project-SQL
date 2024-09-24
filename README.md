@@ -238,7 +238,7 @@ WHERE
     Constituency_Name   = 'KANPUR'
 ```
 
-#### 8)  What is the distribution of EVM votes VS postal votes for canditates in a specific constituency 
+#### 9)  What is the distribution of EVM votes VS postal votes for canditates in a specific constituency 
 ```sql
 SELECT cd.candidate,
        cd.Evm_votes,
@@ -251,7 +251,7 @@ FROM
 WHERE 
   constituency_name = 'BIJNOR'
 ```
-#### 9) Which party won the most seats in a state , and how many seats did each party win ?
+#### 10) Which party won the most seats in a state , and how many seats did each party win ?
 ```sql
 SELECT 
      p.party, 
@@ -272,7 +272,7 @@ ORDER BY
      seats_won DESC
 ```
 
-#### 9) What is the total number of seats won by each party allaince (NDA, I.N.D.I.A. Others) in each state for indian Election 2024
+#### 11) What is the total number of seats won by each party allaince (NDA, I.N.D.I.A. Others) in each state for indian Election 2024
    
 ```sql
 SELECT
@@ -292,7 +292,7 @@ GROUP BY
    s.State
 ```
 
-#### 10) Which candidate receive the higest no of EVM Votes in each constituency ? TOP 10 mention their party allaince also.
+#### 12) Which candidate receive the higest no of EVM Votes in each constituency ? TOP 10 mention their party allaince also.
 ```sql
 SELECT TOP 10
     cr.constituency_name,
@@ -318,7 +318,7 @@ WHERE
 ORDER BY 
     cd.EVM_Votes DESC
 ```
-####  11) For Maharashtra state what are the total number of seats, total no of candidates, total number of parties, total votes, and the breakdown of EVM and postal votes
+####  13) For Maharashtra state what are the total number of seats, total no of candidates, total number of parties, total votes, and the breakdown of EVM and postal votes
 ```sql
 SELECT 
     COUNT(DISTINCT cr.Constituency_Name)Total_seats,
