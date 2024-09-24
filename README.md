@@ -2,6 +2,7 @@
 ## Overview
 
 
-Analyze electoral trends by evaluating voter turnout, party-wise seat distribution, and constituency-level performance.
-Uncover insights into voting patterns and shifts in political allegiance.
-Provide data-driven predictions for future elections.
+	Analyse electoral trends by evaluating voter turnout, party-wise seat distribution, and constituency-level performance.
+	Uncover insights into voting patterns and shifts in political allegiance.
+	Provide data-driven predictions for future elections.
+
